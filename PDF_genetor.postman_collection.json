@@ -1,0 +1,27 @@
+{
+	"info": {
+		"_postman_id": "eca08c5a-a92b-410a-8999-b1e73ace46be",
+		"name": "PDF_genetor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pdf_generator",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\" : \"chikhaouialaa8@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3038/users/pdf"
+			},
+			"response": []
+		}
+	]
+}
